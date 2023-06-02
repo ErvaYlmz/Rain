@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2995b03cec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>Rain</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="header-left">
+          <a href="#">
+            <img
+              src="https://www.primefaces.org/rain/javax.faces.resource/images/logo-rain-white.svg.xhtml?ln=rain-layout"
+              alt="rain-logo"
+            />
+          </a>
+        </div>
+
+        <div class="header-right">
+          <div class="menu-button" id="navbar-button">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div class="header-actions">
+            <form>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search..."
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+
+            <div class="notifications">
+              <a href="#"><i class="fa-regular fa-bell"></i></a>
+            </div>
+            <div class="notifications">
+              <a href="#"><i class="fa-solid fa-comment"></i></a>
+            </div>
+            <div class="notifications">
+              <a href="#"><i class="fa-solid fa-tag"></i></a>
+            </div>
+            <div class="notifications">
+              <a href="#">
+                <img
+                  src="https://www.primefaces.org/rain/javax.faces.resource/images/avatar-profilemenu.png.xhtml?ln=rain-layout"
+                  alt="account-image"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <form>
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search..."
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="vertical">
+          <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <ul>
+        <li>
+          <p>FAVORITES</p>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-house"></i>Dashboard</a>
+        </li>
+
+        <li>
+          <p>UI KIT</p>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-address-card"></i>Form Layout</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-check-to-slot"></i>Input</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-bookmark"></i>Float Label</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-solid fa-circle-exclamation"></i>Invalid State</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-square"></i>Button</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-table"></i>Table</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-list"></i>List</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-diagram-project"></i>Tree</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-mobile-button"></i>Panel</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-copy"></i>Overlay</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-photo-film"></i>Media</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-bars"></i>Menu</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-comment"></i>Message</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-file"></i>File</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-chart-simple"></i>Chart</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-circle"></i>Misc</a>
+        </li>
+
+        <li>
+          <p>PRIME BLOCKS</p>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-eye"></i>Free Blocks</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-globe"></i>All Blocks</a>
+        </li>
+
+        <li>
+          <p>UTILITIES</p>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-laptop"></i>PrimeIcons</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-laptop"></i>PrimeFlex</a>
+        </li>
+
+        <li>
+          <p>PAGES</p>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-pen"></i>Crud</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-calendar-days"></i>Calender</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-calendar"></i>Timeline</a>
+        </li>
+        <li>
+          <a href="landing.html"
+            ><i class="fa-solid fa-user-plus"></i>Landing</a
+          >
+        </li>
+        <li>
+          <a href="login.html"
+            ><i class="fa-solid fa-right-to-bracket"></i>Login</a
+          >
+        </li>
+        <li>
+          <a href="invoice.html"
+            ><i class="fa-solid fa-dollar-sign"></i>Invoice</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-circle-question"></i>Help</a>
+        </li>
+        <li>
+          <a href="error.html"><i class="fa-solid fa-circle-xmark"></i>Error</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-solid fa-circle-exclamation"></i>Not Found</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-lock"></i>Access Denied</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-circle"></i>Empty</a>
+        </li>
+
+        <li>
+          <p>HIERARCHY</p>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-bars"></i>Submenu 1</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-bars"></i>Submenu 2</a>
+        </li>
+
+        <li>
+          <p>START</p>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i>Buy Now</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-circle-info"></i>Documantation</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="background" id="background"></div>
+
+    <main id="main">
+      <div class="breadcrumb">
+        <div>
+          <span>RAIN </span><i class="fa-solid fa-chevron-right"></i>
+          <a href="#">DASHBOARD</a>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div>
+          <img
+            class="back-img"
+            src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/effect-useronline.svg.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+            alt="img"
+          />
+          <span
+            ><img
+              src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/icon-usersonline.png.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+              alt="img"
+          /></span>
+        </div>
+        <div>
+          <img
+            class="back-img"
+            src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/effect-checkins.svg.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+            alt="img"
+          />
+          <span
+            ><img
+              src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/icon-checkins.png.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+              alt="img"
+          /></span>
+        </div>
+        <div>
+          <img
+            class="back-img"
+            src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/effect-filessynced.svg.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+            alt="img"
+          />
+          <span
+            ><img
+              src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/icon-filessynced.png.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+              alt="img"
+          /></span>
+        </div>
+        <div>
+          <img
+            class="back-img"
+            src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/effect-messages.svg.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+            alt="img"
+          />
+          <span
+            ><img
+              src="https://www.primefaces.org/rain/javax.faces.resource/images/dashboard/icon-messages.png.xhtml;jsessionid=node01v518hz816uncv6wp4ufjaknn4759334.node0?ln=demo"
+              alt="img"
+          /></span>
+        </div>
+      </div>
+
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Role</td>
+              <td>Company</td>
+              <td>Location</td>
+              <td>Rating</td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Buzz</td>
+              <td>Owner</td>
+              <td>Your Friend Buzz</td>
+              <td>Australia</td>
+              <td>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Dustin</td>
+              <td>Admin</td>
+              <td>Story Inc</td>
+              <td>Hong Kong</td>
+              <td>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Mark</td>
+              <td>User</td>
+              <td>Mixpanel</td>
+              <td>United States of America</td>
+              <td>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cynthia</td>
+              <td>Visitor</td>
+              <td>Shopify</td>
+              <td>Canada</td>
+              <td>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Mark</td>
+              <td>User</td>
+              <td>Mixpanel</td>
+              <td>United States of America</td>
+              <td>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cynthia</td>
+              <td>Visitor</td>
+              <td>Shopify</td>
+              <td>Canada</td>
+              <td>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <footer>
+        <div class="footer-logo">
+          <a href="#">
+            <img
+              src="https://www.primefaces.org/rain/javax.faces.resource/images/logo-rain-black.svg.xhtml?ln=rain-layout"
+              alt="logo"
+            />
+          </a>
+        </div>
+
+        <div class="footer-templates">
+          <span>LATEST TEMPLATES</span>
+          <ul>
+            <li><a href="#">Diamond</a></li>
+            <li><a href="#">Pandora</a></li>
+            <li><a href="#">Siberia</a></li>
+            <li><a href="#">Mirage</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-demos">
+          <span>DEMOS</span>
+          <ul>
+            <li><a href="#">PrimeFaces</a></li>
+            <li><a href="#">PrimeNG</a></li>
+            <li><a href="#">PrimeReact</a></li>
+            <li><a href="#">PrimeVue</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <span>SOCIAL</span>
+          <div>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      const navbarbtn = document.getElementById("navbar-button");
+      const navbar = document.getElementById("navbar");
+      const main = document.getElementById("main");
+      const background = document.getElementById("background");
+
+      navbarbtn.onclick = function () {
+        navbarbtn.classList.toggle("active");
+        navbar.classList.toggle("active");
+        main.classList.toggle("active");
+        background.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>

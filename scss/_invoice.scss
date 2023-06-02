@@ -1,0 +1,159 @@
+$back-color: #25a4d4;
+$white: #fff;
+
+.invoice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 80px;
+
+    .print-button {
+        align-self: flex-start;
+        border-radius: 4px;
+        background-color: $back-color;
+        margin-bottom: 30px;
+        margin-left: -40px;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            padding: 10px 15px;
+            color: $white;
+
+            i {
+                margin-right: 6px;
+            }
+        }
+    }
+    .print-button:hover {
+        background-color: #1b81b6;
+    }
+
+    .invoice-card {
+        width: 100%;
+        padding: 40px;
+        border-radius: 4px;
+        box-shadow: 0 24px 64px -2px rgba(0, 0, 0, 0.02), 0 6px 16px -2px rgba(0, 0, 0, 0.06),
+            0 2px 6px -2px rgba(0, 0, 0, 0.08);
+        background-color: $white;
+
+        .invoice-info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .invoice-info-company {
+                display: flex;
+                flex-direction: column;
+                width: 25%;
+
+                img {
+                    align-self: center;
+                    width: 50px;
+                    margin-left: -90px;
+                    margin-bottom: 15px;
+                }
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                span {
+                    line-height: 20px;
+                }
+            }
+
+            .invoice-info-date {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 25%;
+
+                h2 {
+                    font-size: 25px;
+                    font-weight: lighter;
+                    align-self: flex-end;
+                }
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-bottom: -20px;
+
+                    span {
+                        line-height: 53px;
+                    }
+                }
+            }
+        }
+
+        .invoice-person-info {
+            margin: 1.5rem 0;
+            padding-top: 2rem;
+            width: 100%;
+            border-top: 1px solid #f4f7f9;
+
+            h2{
+                font-weight: lighter;
+            }
+        }
+
+        .invoice-bill-info{
+            margin: 50px 0;
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+
+                thead, tbody{
+                    vertical-align: middle;
+
+                    tr{
+                        border-bottom: 1px solid #f4f7f9;
+
+                        td{
+                            padding: 14px;
+                            text-align: right;
+                        }
+                        td:first-child{
+                            text-align: left;
+                        }
+                    }
+                }
+                thead{
+                    tr{
+                        td{
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+        .invoice-bill{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            .invoice-bill-summary{
+                padding: 15px;
+
+                div{
+                    display: flex;
+                    justify-content: space-between;
+
+                    h5{
+                        font-weight: 600;
+                    }
+
+                    span{
+                        text-align: right;
+                        margin-left: 80px;
+                        line-height: 50px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

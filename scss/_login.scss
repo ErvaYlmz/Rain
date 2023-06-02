@@ -1,0 +1,130 @@
+$back-color: #25a4d4;
+$white: #fff;
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .login-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px 42px;
+        border-top: 8px solid $back-color;
+        background-color: $white;
+        z-index: 2;
+
+        h1 {
+            font-size: 20px;
+
+            span {
+                color: #65686a;
+            }
+        }
+
+        .outside-span {
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 13px;
+            margin-bottom: 30px;
+            color: #65686a;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+            width: 100%;
+
+            label {
+                font-size: 15px;
+                align-self: flex-start;
+                margin: 6px 0;
+            }
+            input {
+                width: 100%;
+                padding: 0.5rem 0.5rem;
+                margin-bottom: 15px;
+                border: 1px solid #d9dee6;
+                font-size: 13px;
+                border-radius: 4px;
+                transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+                background-color: $white;
+                color: #4b576f;
+            }
+            input:hover {
+                border-color: $back-color;
+            }
+        }
+
+        .login-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            form {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 60%;
+
+                label {
+                    font-size: 14px;
+                    margin-right: 6px;
+                    color: #191a1c;
+                }
+                input {
+                    padding: 0;
+                    width: 21px;
+                    height: 21px;
+                }
+                input:hover {
+                    border-color: $back-color;
+                }
+            }
+
+            a {
+                width: 120px;
+                height: 39px;
+                font-size: 14px;
+                margin-bottom: 15px;
+                text-decoration: none;
+                text-align: center;
+                color: #65686a;
+            }
+            a:hover {
+                color: #191a1c;
+            }
+        }
+
+        .login-button {
+            width: 100%;
+            margin-top: 24px;
+            border-radius: 5px;
+            background-color: $back-color;
+
+            a {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                padding: 12px 0;
+                text-decoration: none;
+                color: $white;
+            }
+        }
+        .login-button:hover{
+            background-color: #4cb7e0;
+        }
+    }
+}

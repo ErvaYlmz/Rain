@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <img
+        src="https://www.primefaces.org/rain/javax.faces.resource/images/pages/bg-header-login.png.xhtml?ln=rain-layout"
+        alt="img"
+      />
+      <div class="login-card">
+        <h1>RAIN<span>LOGIN</span></h1>
+
+        <span class="outside-span">
+          Welcome, please use the form to sign-in <br />Rain network
+        </span>
+
+        <form>
+          <label for="mail">Email</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="name@example.com"
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="write your password..."
+          />
+        </form>
+
+        <div class="login-footer">
+          <form>
+            <label for="remember">Remember me</label>
+            <input type="checkbox" name="remember" id="remember" />
+          </form>
+          <a href="#">Forget Password?</a>
+        </div>
+
+        <div class="login-button">
+            <a href="#">LOGIN</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

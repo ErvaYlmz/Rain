@@ -1,0 +1,18 @@
+@import "header.scss", 
+"navbar.scss", 
+"main.scss", 
+"footer.scss", 
+"login.scss", 
+"error.scss",
+"invoice.scss",
+"landing.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #191a1c;
+    background-color: #f4f7f9;
+}
